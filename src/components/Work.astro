@@ -1,0 +1,12 @@
+---
+export interface Props {
+	topic: string;
+}
+
+const {topic} = Astro.props;
+---
+<section class="work">
+	<h2>{topic}</h2>
+	<p>Webエンジニア<br>京都で活動しています。デジタルでの表現をするべく、日々プログラミングやお絵描きに夢中。</p>
+    <p><a href="">portfolio</a></p>
+</section>
