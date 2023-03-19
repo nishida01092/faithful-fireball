@@ -4,14 +4,15 @@ import Bio from '../components/Bio.astro';
 import Love from '../components/Love.astro';
 import Web from '../components/Web.astro';
 import Landing from '../components/Index-landing.astro';
+import Head from '../components/Head.astro';
 ---
 
 <Layout title="portfolio">
-
+	<Head/>
 	<Landing/>
 	<Bio topic="BIO"/>
 	<Love topic="I LOVE"/>
-	<Web topic="WEB"/>
+	<Web topic="On the WEB"/>
 </Layout>
 
 <style>
