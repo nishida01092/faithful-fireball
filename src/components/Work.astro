@@ -7,6 +7,11 @@ const {topic} = Astro.props;
 ---
 <section class="work">
 	<h2>{topic}</h2>
-	<p>Webエンジニア<br>京都で活動しています。デジタルでの表現をするべく、日々プログラミングやお絵描きに夢中。</p>
-    <p><a href="">portfolio</a></p>
+	<p>Webエンジニア<br>京都で活動しています。<br>デジタルでの表現をするべく、日々プログラミングやお絵描きに夢中。</p>
+    <p class="linkButton" ><a href="">portfolio</a></p>
 </section>
+<style>
+	p:nth-of-type(1){
+		margin:0 0 27px 0;
+	}
+</style>

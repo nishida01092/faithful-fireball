@@ -1,3 +1,66 @@
-body{
-    background-color: red;
+@media screen and (max-width: 700px) {
+    html{
+        font-size:10px;
+        line-height: 1.2rem;
+    }
+    body{
+        padding:0 70px;
+        background: linear-gradient(#9DBF69 0 178px,#F2DD72 300px 100%);
+        font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    }
+    main{
+        font-size:1.4rem;
+        line-height: 2.0rem;
+    }
+    figure{
+        text-align: center;
+    }
+    li{
+        margin:0 0 3px 0;
+    }
+    h1{
+        font-size: 3.6rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 3px;
+    }
+    h2{
+        font-size:3.0rem;
+        display: inline-block;
+        letter-spacing: 0.2rem;
+        text-align:center;
+        padding:14px 0;
+        border-bottom:4px solid #8B2703;
+        margin:0 0 20px 0;
+        font-weight: 500;
+    }
+    .top-animation{
+        margin:0 0 20px 0;
+    }
+    .iam{
+        margin:0 0 80px 0;
+    }
+    .work,.bio,.love,.web{
+        padding:10px 30px 35px 30px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        // border:2px solid #4E85A6;
+        border-radius:40px;
+    }
+    .linkButton{
+        text-align:center;
+    }
+    .linkButton:hover{
+        cursor:pointer;
+    }
+    .linkButton > a{
+        font-size: 2.1rem;
+        background-color:#4E85A6;
+        padding:10px 20px;
+        display: inline-block;
+        color:white;
+        border-radius:10px;
+    }
+
+
+    
 }

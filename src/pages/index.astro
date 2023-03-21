@@ -5,19 +5,16 @@ import Love from '../components/Love.astro';
 import Web from '../components/Web.astro';
 import Me from '../components/Iam.astro';
 import Work from '../components/Work.astro';
-import Head from '../components/Head.astro';
+import "/public/lib/style/reset.css"
 import "/public/lib/style/sp.scss"
 ---
 
 <Layout title="portfolio">
-	<Head/>
-	<main>
-		<Me/>
-		<Work topic="WORK"/>
-		<Bio topic="BIO"/>
-		<Love topic="I LOVE"/>
-		<Web topic="On the web"/>
-	</main>
+	<Me/>
+	<Work topic="WORK"/>
+	<Bio topic="BIO"/>
+	<Love topic="I LOVE"/>
+	<Web topic="On the web"/>
 </Layout>
 
 <style>
