@@ -592,7 +592,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 0.00,
 	manifest: [
-		{src:"images/cha_animation_atlas_1.png", id:"cha_animation_atlas_1"}
+		{src:"/public/icon/charactor_animation/images/cha_animation_atlas_1.png", id:"cha_animation_atlas_1"}
 	],
 	preloads: []
 };
