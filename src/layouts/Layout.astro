@@ -1,4 +1,5 @@
 ---
+import Head from '../components/Head.astro';
 export interface Props {
 	title: string;
 }
@@ -85,12 +86,15 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 0.00); width:414px; height:700px">
-		<canvas id="canvas" width="414" height="700" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 0.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:414px; height:700px; position: absolute; left: 0px; top: 0px; display: block;">
-		</div>
-	</div>
-	<slot />
+	<Head/>
+	<main id="portfolio">
+		<section class="top-animation" id="animation_container">
+			<canvas id="canvas"></canvas>
+			<div id="dom_overlay_container">
+			</div>
+		</section>
+		<slot />
+	</main>
 </body>
 </html>
 
@@ -98,6 +102,27 @@ function handleComplete(evt,comp) {
 
 
 
-<style is:global>
+<style>
 
+	#portfolio .top-animation{
+		margin:-100px auto 20px;
+
+	} 
+	/* #dom_overlay_container{
+		pointer-events:none;
+		overflow:hidden; 
+		width:414px; 
+		height:700px; 
+		position: absolute; 
+		left: 0px; 
+		top: 0px; 
+		display: block;
+	} */
+	canvas{
+		width:414px;
+		height:700px;
+		position:absolute;
+		display: block;
+		background-color:rgba(255, 255, 255, 0.00);
+	}
 </style>
