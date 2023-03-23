@@ -1,0 +1,35 @@
+---
+export interface Props {
+	topic: string;
+}
+
+const {topic} = Astro.props;
+---
+<section class="web">
+	<h2>{topic}</h2>
+	<ul>
+		<li>
+			<figure>
+			<a href="https://github.com/nishida01092"><img src="/icon/github-icon.svg" alt="github-icon">@otokuni_dev</a>
+			</figure>
+		</li>
+		<li>
+			<figure>
+			<a href=""><img src="/icon/twitter-icon.svg" alt="twitter-icon">@otokuni_dev</a>
+			</figure>
+		</li>
+	</ul>
+</section>
+<style>
+	.web img{
+		width:23px;
+		height:23px;
+		
+	}
+	.web figure{
+		text-align:left;
+	}
+	.web img{
+		margin-right:5px;
+	}
+</style>
