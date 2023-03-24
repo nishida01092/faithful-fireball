@@ -1,17 +1,17 @@
 # portfolio
 portfolio website
 
-＃このサイトについて. 
-[技術]. 
-フレームワーク:Astro. 
-言語:Typescript,Javascript. 
-デザイン：Adobe Illustrator. 
-アニメーション:Adobe Animate. 
-ホスティング:Vercel. 
+＃このサイトについて. <br>
+[技術]. <br>
+フレームワーク:Astro. <br>
+言語:Typescript,Javascript. <br>
+デザイン：Adobe Illustrator. <br>
+アニメーション:Adobe Animate. <br>
+ホスティング:Vercel. <br>
 
 Astroはコンポーネント指向のUIライブラリであり、今回はMPAにするため、選定した。今後、コンテンツの追加に伴って、アイランドを使用したい。  
 
-[開発の流れ]. 
+[開発の流れ]. <br>
 ▶︎バージョン管理、チケット管理. 
 Mainブランチ            ◁本番環境. 
   ー Developブランチ    ◁ステージング環境. 
