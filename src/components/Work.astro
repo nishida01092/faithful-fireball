@@ -1,17 +1,21 @@
 ---
 export interface Props {
-	topic: string;
+  topic: string;
 }
 
-const {topic} = Astro.props;
+const { topic } = Astro.props;
 ---
+
 <section class="work">
-	<h2>{topic}</h2>
-	<p>Webエンジニア。<br>京都で活動しています。<br>デジタルでの表現をするべく、日々プログラミングやお絵描きに夢中。</p>
-    <p class="linkButton" ><a href="https://naming-new.vercel.app/">portfolio</a></p>
+  <h2>{topic}</h2>
+  <p>
+    Webエンジニア。<br />京都で活動しています。<br
+    />デジタルでの表現をするべく、日々プログラミングやお絵描きに夢中。
+  </p>
+  <p class="linkButton"><a href="">portfolio</a></p>
 </section>
 <style>
-	p:nth-of-type(1){
-		margin:0 0 27px 0;
-	}
+  p:nth-of-type(1) {
+    margin: 0 0 27px 0;
+  }
 </style>
